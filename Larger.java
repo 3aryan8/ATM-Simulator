@@ -18,7 +18,7 @@ public class Larger {
             System.out.println("both are equal");
         }
         else {
-            System.out.println(b + "is larger");
+            System.out.println(b + " is larger");
         }
 
         sc.close();
