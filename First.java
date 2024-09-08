@@ -22,5 +22,6 @@ public class First {
         System.out.println("Product of the 2 number is " + (a * b));
         System.out.println("Quotient of the 2 number is " + (a / b));
         sc.close();
+        
     }
 }
