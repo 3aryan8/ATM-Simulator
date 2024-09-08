@@ -1,2 +1,2 @@
-# OOPS-java-sem-3
-This repo contains all the codes i will perform while learning OOPS in java.
+# OOPS_java_sem_3
+This repo contains all the codes I will perform while learning OOPS in Java.
