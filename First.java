@@ -10,18 +10,17 @@ public class First {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int a, b;
-        System.out.println("Enter the first number ");
-        a = sc.nextInt();
-        System.out.println("Enter the second number ");
-        b = sc.nextInt();
-
-        System.out.println("Sum of the 2 number is " + (a + b));
-        System.out.println("Difference of the 2 number is " + (a - b));
-        System.out.println("Product of the 2 number is " + (a * b));
-        System.out.println("Quotient of the 2 number is " + (a / b));
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+            int a, b;
+            System.out.println("Enter the first number ");
+            a = sc.nextInt();
+            System.out.println("Enter the second number ");
+            b = sc.nextInt();
+            System.out.println("Sum of the 2 number is " + (a + b));
+            System.out.println("Difference of the 2 number is " + (a - b));
+            System.out.println("Product of the 2 number is " + (a * b));
+            System.out.println("Quotient of the 2 number is " + (a / b));
+        }
         
     }
 }
