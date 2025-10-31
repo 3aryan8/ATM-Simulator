@@ -16,6 +16,8 @@ Every desktop-based Java application that uses a Graphical User Interface (GUI) 
 
 The `Login` class represents the **initial window** of the Bank Management System. It introduces users to the application and will eventually contain text fields, buttons, and images for authentication and branding.
 
+Our Objective is to make it look like this  
+![img.png](img.png)
 
 ### Step 1: Defining the Main Class
 
@@ -76,5 +78,15 @@ After this we will add labels: We will declare labels globally, so that they are
   
 NOTE : 
 - `setVisible(true)` should be added at the end.
-- The things which are added first will appear above. So background should be added at the end.'
+- The things which are added first will appear above. So background should be added at the end.
 
+After this, we will add labels for `WELCOME TO ATM` , `Card No:` and `Pin`.  
+We use JLabel to display text on the frame.  
+We can use `.setForeground(Color.WHITE)` to set color of text.  
+We can use `.setFont(new Font( "AvantGarde" , Font.BOLD , 38));` to set font of text.
+
+
+After that, we will add Text fields card number, and Password field for PIN.
+
+After adding all of that, we want to assign action to these buttons, this will be done through ACTION LISTER.  
+We will implement ActionListener interface
