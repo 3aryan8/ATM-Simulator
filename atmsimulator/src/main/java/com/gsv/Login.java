@@ -125,7 +125,8 @@ public class Login extends JFrame implements ActionListener {
 
             }
         } catch (Exception ex) {
-            ex.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Something went wrong: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+
             throw new RuntimeException(ex);
         }
     }
