@@ -4,5 +4,4 @@ The objective of this project is to create an ATM simulator, which polishes the 
 This project is made possible by the combined work of 
 1. [Aryan Thakur](https://github.com/3aryan8)
 2. [Shruti Verma](https://github.com/ShrutiVerma3008)
-3. [Ravi Panchal](https://github.com/ravixpanchal)
-4. [Sumit Loyal](https://github.com/sumit961103)
+
